@@ -4,8 +4,8 @@
   vars: # PLAY level variables
     COURSE: "devops with aws"
     DURATION: 120hrs
-    TRAINER: siva
+    TRAINER: sivakumar
   tasks:
   - name: print the variable
     ansible.builtin.debug:
-      msg: "cource is {{ COURSE }}, duration is {{ DURATION }},trainer {{ TRAINER }}"
+      msg: "course is {{ COURSE }}, duration is {{ DURATION }},trainer {{ TRAINER }}"
