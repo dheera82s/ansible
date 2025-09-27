@@ -6,6 +6,12 @@
     DURATION: 120hrs
     TRAINER: siva
   tasks:
-  - name: print the variable
+  - name: print the variables
+    vars: # task level variables
+      COURSE: ansible
+    ansible.builtin.debug:
+      msg: "cource is {{ COURSE }}, duration is {{ DURATION }},trainer {{ TRAINER }}"
+
+  - name: print the variables1
     ansible.builtin.debug:
       msg: "cource is {{ COURSE }}, duration is {{ DURATION }},trainer {{ TRAINER }}"
