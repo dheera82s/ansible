@@ -11,4 +11,4 @@
   - name: print if number less than or equal tools 10
     ansible.builtin.debug:
       msg: "given number {{ my_number }} less than or equal tools 10"
-    when: my_number > 10
+    when: my_number <= 10
