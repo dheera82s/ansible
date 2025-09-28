@@ -41,4 +41,4 @@
     vars:
       name: "sivakumar reddy m"
     ansible.builtin.debug:
-      msg: "hello {{ name | lower }}"
+      msg: "hello {{ name | upper }}"
