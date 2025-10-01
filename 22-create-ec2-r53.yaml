@@ -11,7 +11,7 @@
     - backend
     - frontend 
   tasks:
-  - name: install aws python libraries 
+  - name: install AWS python libraries 
     ansible.builtin.pip:
     name: "{{ item }}"
     executable: pip3.9
